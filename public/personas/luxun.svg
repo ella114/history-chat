@@ -1,0 +1,44 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 110) rotate(90) scale(210)">
+      <stop offset="0" stop-color="#D8D1CB"/>
+      <stop offset="1" stop-color="#A59A93"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 116) rotate(90) scale(104)">
+      <stop offset="0" stop-color="#EFE8DE"/>
+      <stop offset="1" stop-color="#C9BEB4"/>
+    </radialGradient>
+    <linearGradient id="robe" x1="160" y1="214" x2="160" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C4644"/>
+      <stop offset="1" stop-color="#252322"/>
+    </linearGradient>
+    <filter id="grain" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.055"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="320" height="320" rx="40" fill="url(#bg)"/>
+  <circle cx="160" cy="118" r="104" fill="url(#halo)" opacity="0.94"/>
+  <rect width="320" height="320" rx="40" fill="#FFFFFF" opacity="0.04"/>
+  <rect width="320" height="320" rx="40" filter="url(#grain)"/>
+  <path d="M70 320C80 266 115 223 160 223C205 223 240 266 250 320H70Z" fill="url(#robe)"/>
+  <path d="M107 320C115 275 132 246 160 246C188 246 205 275 213 320H107Z" fill="#403B39" opacity="0.8"/>
+  <path d="M127 223C132 209 144 200 160 200C176 200 188 209 193 223L183 247H137L127 223Z" fill="#BC8D6D"/>
+  <path d="M101 141C101 97 127 67 160 67C193 67 219 97 219 141C219 183 193 213 160 213C127 213 101 183 101 141Z" fill="#DCB08E"/>
+  <path d="M114 143C114 109 134 82 160 82C186 82 206 109 206 143C206 176 186 201 160 201C134 201 114 176 114 143Z" fill="#EBC5A5"/>
+  <path d="M114 114C118 90 136 68 160 68C184 68 202 90 206 114C196 102 186 97 176 92C169 88 165 84 160 84C155 84 151 88 144 92C134 97 124 102 114 114Z" fill="#23201F"/>
+  <path d="M110 115C117 92 129 74 146 67" stroke="#2C2624" stroke-width="14" stroke-linecap="round"/>
+  <path d="M210 115C203 92 191 74 174 67" stroke="#2C2624" stroke-width="14" stroke-linecap="round"/>
+  <path d="M126 126C133 121 141 118 149 118" stroke="#2E2826" stroke-width="4.8" stroke-linecap="round"/>
+  <path d="M171 118C179 118 187 121 194 126" stroke="#2E2826" stroke-width="4.8" stroke-linecap="round"/>
+  <path d="M142 146C146 144 149 143 152 143C155 143 158 144 161 146" stroke="#392C28" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170 146C174 144 177 143 180 143C183 143 186 144 189 146" stroke="#392C28" stroke-width="4" stroke-linecap="round"/>
+  <path d="M160 145C157 156 157 166 160 176" stroke="#BA8766" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M149 183C154 186 166 186 171 183" stroke="#965F56" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M134 167C142 171 151 173 160 173C169 173 178 171 186 167" stroke="#85574B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M138 173C144 180 151 183 160 183C169 183 176 180 182 173" stroke="#302726" stroke-width="6" stroke-linecap="round"/>
+  <path d="M144 184C149 189 154 191 160 191C166 191 171 189 176 184" stroke="#2B2221" stroke-width="5.4" stroke-linecap="round"/>
+</svg>
