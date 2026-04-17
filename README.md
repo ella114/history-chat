@@ -1,7 +1,5 @@
 # History Persona Chat
 
-![History Persona Chat cover](docs/github-cover.svg)
-
 An AI web app for role-faithful conversations with historical figures. The project focuses on making persona-based dialogue feel distinct, bounded, and product-ready rather than turning every answer into generic chatbot copy.
 
 [Live Demo](https://historypersona.cn) · [Production Deployment](https://history-chat-7knqf8kt4-ellas-projects-9863373f.vercel.app)
